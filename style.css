@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: cornflowerblue;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid white;
+}
+h4{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(77, 165, 156);
+}
+nav .nav-center{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-center li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-center li a{
+    margin-left: 25px;
+    display: block;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+}
+.nav-center li a:hover{
+    background-color: white;
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h2{
+    color: blue;
+    background-color: black;
+    padding: 50px 50px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    border: solid white;
+    
+}
+h2 span{
+    color: cornflowerblue;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 1000;
+    text-transform: capitalize;
+    background-color: cornflowerblue;
+    color: white;
+    border: solid white;
+}
+button:hover{
+    background-color: white;
+    color: cornflowerblue;
+    border: 3px solid cornflowerblue;
+}
